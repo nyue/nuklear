@@ -1,0 +1,9 @@
+ADD_DEFINITIONS ( -DINCLUDE_ALL )
+
+ADD_EXECUTABLE ( glfw_opengl2
+  main.c
+  )
+
+TARGET_LINK_LIBRARIES ( glfw_opengl2
+  ${NUKLEAR_REQUIRED_LINK_LIBRARIES}
+  )
